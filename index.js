@@ -8,3 +8,6 @@ function deleteFromObjectByKey(object, key) {
   delete newRecipes.key
   return recipes
 }
+function destructivelyDeleteFromObjectByKey(object, key) {
+  return delete
+}
