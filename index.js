@@ -9,5 +9,5 @@ function deleteFromObjectByKey(object, key) {
   return recipes
 }
 function destructivelyDeleteFromObjectByKey(object, key) {
-  return delete
+  return delete.recipes
 }
